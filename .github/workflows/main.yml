@@ -31,8 +31,6 @@ jobs:
         with:
           required-ros-distributions: ${{ matrix.ros_distribution }}
       - name: build and test ROS 2
-        if: ${{ matrix.ros_version == 2 }}
         uses: ros-tooling/action-ros-ci@v0.2
         with:
-          package-name: YOUR_PACKAGE_HERE MORE_PACKAGES_HERE
           target-ros2-distro: ${{ matrix.ros_distribution }}
