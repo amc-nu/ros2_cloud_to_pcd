@@ -35,7 +35,7 @@
 #include <sensor_msgs/msg/point_cloud2.hpp>
 #include <pcl_conversions/pcl_conversions.h>
 #include <pcl/io/pcd_io.h>
-
+#include "boost/lexical_cast.hpp"
 #include "cloud_to_pcd.hpp"
 
 class CloudToPcd : public rclcpp::Node

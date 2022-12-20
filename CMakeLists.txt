@@ -9,6 +9,7 @@ find_package(ament_cmake_auto REQUIRED)
 ament_auto_find_build_dependencies()
 
 find_package (PCL REQUIRED)
+find_package (Boost REQUIRED)
 
 ament_auto_add_library(cloud_to_pcd SHARED
         src/cloud_to_pcd.cpp

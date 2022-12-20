@@ -15,7 +15,8 @@
   <depend>sensor_msgs</depend>
   <depend>pcl_conversions</depend>
   <depend>pcl_ros</depend>
-  <depend>pcl</depend>
+  <depend>boost</depend>
+  <depend>libpcl-all-dev</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
